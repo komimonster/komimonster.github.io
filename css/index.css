@@ -1,5 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
 body{
-    background:rgba(106, 90, 205, 0.5);
+    display: block;
+}
+
+section {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#E5CFF7;
 }
 
 img{
@@ -9,6 +25,17 @@ img{
     border-radius: 50%;
 }
 
+#card{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: #9D76C1;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.025);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .divimg{
     text-align: center;
@@ -20,7 +47,7 @@ img{
 
 
 .textbutton {
-    background: #9f7afb;
+    background: #713ABE;
     border: none;
     color: black;
     padding: 12px 16px;
@@ -31,7 +58,7 @@ img{
 
 
 .button {
-    background: #9f7afb;
+    background: #713ABE;
     border: none;
     color: black;
     padding: 12px 16px;
@@ -42,5 +69,5 @@ img{
 
 
 .button:hover {
-    background: 	#6140b6;
+    background: 	#5B0888;
 }
