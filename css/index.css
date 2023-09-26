@@ -1,0 +1,46 @@
+body{
+    background:rgba(106, 90, 205, 0.5);
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.divimg{
+    text-align: center;
+}
+
+.divbtn{
+    text-align: center;
+}
+
+
+.textbutton {
+    background: #9f7afb;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+
+.button {
+    background: #9f7afb;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+
+.button:hover {
+    background: 	#6140b6;
+}
