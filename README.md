@@ -1,5 +1,5 @@
 # 
-Welcome to my website! This is a simple and responsive website built with HTML, CSS, and Particle.js for creating mesmerizing particle effects.
+Welcome to my project! This is a simple and responsive website built with HTML, CSS, and Particle.js for creating mesmerizing particle effects.
 
 ## Features
 
@@ -17,10 +17,11 @@ To get a local copy up and running follow these simple steps:
 ```bash
 git clone https://github.com/komimonster/komimonster.github.io.git
 ```
+2. Navigate to the project directory:
 ```bash
 cd komimonster.github.io
 ```
-
+3. Open index.html
 ```bash
 Open index.html
 ```
