@@ -16,11 +16,13 @@ body {
     margin: auto;
     padding: 2%;
     color: white;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    top: 10%; 
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80%;
 }
+
+
 
 img {
     width: 250px;
