@@ -1,40 +1,30 @@
 *{
-    margin: 0;
-    padding: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif
 }
 
 body{
     display: block;
+    background-color: black;
 }
 
-section {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background:#E5CFF7;
+#card{
+    position: absolute;
+    overflow: auto;
+    margin: auto;
+    padding: 2%;
+    color: white;
+    top: 0; left: 0; bottom: 0; right: 0;
 }
+
 
 img{
     width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-#card{
-    position: relative;
-    width: 400px;
-    height: 450px;
-    background: #9D76C1;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.025);
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .divimg{
@@ -45,29 +35,31 @@ img{
     text-align: center;
 }
 
-
 .textbutton {
-    background: #713ABE;
+    background: white;
     border: none;
     color: black;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-  }
-
+}
 
 .button {
-    background: #713ABE;
+    background: white;
     border: none;
     color: black;
     padding: 12px 16px;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50%;
-  }
-
+}
 
 .button:hover {
-    background: 	#5B0888;
+    background: lightgray;
 }
+
+#particles-js{
+    background-color: black;
+}
+
