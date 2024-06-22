@@ -22,9 +22,6 @@ body {
     max-width: 80%;
 }
 
-
-
-
 img {
     width: 250px;
     height: 250px;
@@ -33,6 +30,7 @@ img {
 }
 
 #myimage{
+    transition: filter 0.75s ease;
     filter: drop-shadow(16px 16px 20px white) grayscale(100%) sepia(10%);
 }
 
@@ -56,6 +54,7 @@ img {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
+    transition: background-color 2s ease;
 }
 
 .button:hover {
